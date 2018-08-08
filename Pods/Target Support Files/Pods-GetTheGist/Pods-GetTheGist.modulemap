@@ -1,0 +1,6 @@
+framework module Pods_GetTheGist {
+  umbrella header "Pods-GetTheGist-umbrella.h"
+
+  export *
+  module * { export * }
+}
