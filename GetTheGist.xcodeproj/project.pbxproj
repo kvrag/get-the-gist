@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		45A1689668DB9F374E0348FB /* Pods_GetTheGistTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F2C1AFF400D3BD8539AC3E8 /* Pods_GetTheGistTests.framework */; };
+		630D257721223EDC00B448D1 /* TodoRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630D257621223EDC00B448D1 /* TodoRouter.swift */; };
+		633954122134B06A005FB5DA /* TodoStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633954112134B06A005FB5DA /* TodoStruct.swift */; };
+		633954522135A80C005FB5DA /* Todo+Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633954512135A80C005FB5DA /* Todo+Networking.swift */; };
 		63931306211B48BE00B83452 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63931305211B48BE00B83452 /* AppDelegate.swift */; };
 		63931308211B48BE00B83452 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63931307211B48BE00B83452 /* ViewController.swift */; };
 		6393130B211B48BE00B83452 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63931309211B48BE00B83452 /* Main.storyboard */; };
@@ -40,6 +43,9 @@
 		3A13BF0FF9832C6130ABC145 /* Pods_GetTheGist.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GetTheGist.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C6770DA0310F3BA021A22D8 /* Pods-GetTheGistTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetTheGistTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GetTheGistTests/Pods-GetTheGistTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5F19ED7EDC817A1301B0F968 /* Pods-GetTheGistUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetTheGistUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GetTheGistUITests/Pods-GetTheGistUITests.release.xcconfig"; sourceTree = "<group>"; };
+		630D257621223EDC00B448D1 /* TodoRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoRouter.swift; sourceTree = "<group>"; };
+		633954112134B06A005FB5DA /* TodoStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoStruct.swift; sourceTree = "<group>"; };
+		633954512135A80C005FB5DA /* Todo+Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Todo+Networking.swift"; sourceTree = "<group>"; };
 		63931302211B48BE00B83452 /* GetTheGist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetTheGist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63931305211B48BE00B83452 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63931307211B48BE00B83452 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -120,6 +126,9 @@
 				6393130C211B48BF00B83452 /* Assets.xcassets */,
 				6393130E211B48BF00B83452 /* LaunchScreen.storyboard */,
 				63931311211B48BF00B83452 /* Info.plist */,
+				630D257621223EDC00B448D1 /* TodoRouter.swift */,
+				633954112134B06A005FB5DA /* TodoStruct.swift */,
+				633954512135A80C005FB5DA /* Todo+Networking.swift */,
 			);
 			path = GetTheGist;
 			sourceTree = "<group>";
@@ -375,7 +384,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				630D257721223EDC00B448D1 /* TodoRouter.swift in Sources */,
 				63931308211B48BE00B83452 /* ViewController.swift in Sources */,
+				633954122134B06A005FB5DA /* TodoStruct.swift in Sources */,
+				633954522135A80C005FB5DA /* Todo+Networking.swift in Sources */,
 				63931306211B48BE00B83452 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
